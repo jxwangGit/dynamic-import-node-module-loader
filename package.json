@@ -1,0 +1,12 @@
+{
+  "name": "dynamic-import-node-module-loader",
+  "version": "0.0.1",
+  "description": "Handling lazy loading import() in third-party packages",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "keywords": [],
+  "author": "jiaxianwang",
+  "license": "ISC"
+}
