@@ -11,11 +11,13 @@ typescript 会编译成Promise.resolve().then...
 
 在webpack module 配置添加此loader
 
+const dynamicImportNodeModuleLoader = require('dynamic-import-node-module-loader');
+
 {
         test: /\.(js|ts)$/,
         use: [
           {
-            loader: path.resolve('dynamic-import-node-module-loader'),
+            loader: dynamicImportNodeModuleLoader,
           },
         ],
 },
