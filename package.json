@@ -8,5 +8,7 @@
   ],
   "keywords": [],
   "author": "jiaxianwang",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": "jxwangGit/dynamic-import-node-module-loader",
+  "homepage": "https://github.com/jxwangGit/dynamic-import-node-module-loader"
 }
