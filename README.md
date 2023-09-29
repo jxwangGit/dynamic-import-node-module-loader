@@ -13,11 +13,11 @@ typescript 会编译成Promise.resolve().then...
 
 const dynamicImportNodeModuleLoader = require('dynamic-import-node-module-loader');
 
-{
-  test: /\.(js|ts)$/,
-  use: [
-    {
-      loader: dynamicImportNodeModuleLoader
-    }
-  ]
-}
+{  
+  test: /\.(js|ts)$/,  
+  use: [  
+    {  
+      loader: dynamicImportNodeModuleLoader  
+    }  
+  ]  
+}  
